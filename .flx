@@ -1,2 +1,2 @@
 [setup]
-/usr/local/bin/cpanm -l extlib DateTime
+/usr/local/bin/cpanm -l extlib DateTime Plack

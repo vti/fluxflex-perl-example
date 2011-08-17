@@ -12,6 +12,9 @@ use lib qw(
 use DateTime;
 use Plack::Handler::FCGI;
 
+my $BIRTHDAY_DAY   = 23;
+my $BIRTHDAY_MONTH = 7;
+
 my $app = sub {
     my $env = shift;
 

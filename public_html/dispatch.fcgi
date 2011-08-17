@@ -3,6 +3,13 @@
 use strict;
 use warnings;
 
+use lib qw(
+  ../lib
+  ../extlib/lib/perl5
+  ../extlib/lib/perl5/x86_64-linux-gnu-thread-multi
+);
+
+use DateTime;
 use Plack::Handler::FCGI;
 
 my $app = sub {
